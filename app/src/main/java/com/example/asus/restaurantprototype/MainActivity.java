@@ -1,7 +1,9 @@
 package com.example.asus.restaurantprototype;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -10,4 +12,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+    public void login(View view){
+        Intent intent = new Intent(MainActivity.this, menuUtama.class);
+        startActivity(intent);
+    }
+
 }
