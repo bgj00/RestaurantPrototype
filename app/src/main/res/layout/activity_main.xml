@@ -24,7 +24,8 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Masukan Username Anda"/>
+        android:hint="Masukan Username Anda"
+        android:id="@+id/etuname"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -34,7 +35,9 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Masukan Password Anda"/>
+        android:hint="Masukan Password Anda"
+        android:id="@+id/etpass"
+        android:inputType="textPassword"/>
 
     <Button
         android:layout_width="wrap_content"

@@ -16,7 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".menuUtama"></activity>
+        <activity android:name=".menuUtama" />
+        <activity android:name=".delivery" />
+        <activity android:name=".availablemenu" />
+        <activity android:name=".booking" />
+        <activity android:name=".bill" />
+        <activity android:name=".member" />
+        <activity android:name=".order" />
+        <activity android:name=".menuUtamaResto"></activity>
     </application>
 
 </manifest>
